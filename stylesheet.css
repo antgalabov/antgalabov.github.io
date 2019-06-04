@@ -1,4 +1,19 @@
- 
+html {
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background: #70bg32;
+	background-repeat:no-repeat;
+	background: -webkit-linear-gradient(to bottom, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #3a3a3a);
+	background: -moz-linear-gradient(to bottom, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #3a3a3a);
+	background: -ms-linear-gradient(to bottom, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #3a3a3a);
+	background: -o-linear-gradient(to bottom, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #3a3a3a);
+	background: linear-gradient(to bottom, #0f0f0f, #0f0f0f, #0f0f0f, #0f0f0f, #3a3a3a);
+	}
+
+/*
 html {
 	height: 100%;
 	-webkit-background-size: cover;
@@ -13,11 +28,12 @@ html {
 	background: -o-linear-gradient(to bottom, rgba(255,40,150,0.8), rgba(255,40,150,0.8), rgba(190,45,120,0.4));
 	background: linear-gradient(to bottom, rgba(255,40,150,0.8), rgba(255,40,150,0.8), rgba(190,45,120,0.4));
 	}
-
+*/
 div.a {
 	text-align: center;
-	font-family: verdana;
-	font-size: +20px;
+	font-family: Consolas;
+	font-size: +22px;
+	color: white;
 	}
 
 .space {
@@ -37,7 +53,7 @@ div.a {
 	bottom: 0;
 	height: +65px;
 	width: 100%;
-	background-color: black;
+	background-color: #090909;
 	color: white;
 	text-align: right;
 	font-size: +22px;
