@@ -29,10 +29,17 @@ html {
 	background: linear-gradient(to bottom, rgba(255,40,150,0.8), rgba(255,40,150,0.8), rgba(190,45,120,0.4));
 	}
 */
-div.a {
+.a {
 	text-align: center;
 	font-family: Consolas;
-	font-size: +22px;
+	font-size: +120%;
+	color: white;
+	}
+
+.b {
+	text-align: left;
+	font-family: Consolas;
+	font-size: +120%;
 	color: white;
 	}
 
@@ -46,15 +53,18 @@ div.a {
 	margin-top: 100px;
 	}
 
+.space3 {
+	margin-bottom: 200px;
+	margin-top: 200px;
+	}
 
 .footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	height: +65px;
+	height: +45px;
 	width: 100%;
 	background-color: #090909;
 	color: white;
 	text-align: right;
-	font-size: +22px;
 	}
