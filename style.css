@@ -10,6 +10,7 @@
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ font-family: monaco, monospace;
 }
 #title {
     color: #fff;
@@ -19,12 +20,6 @@
     font-family: monaco, monospace;
     color: transparent;
     text-shadow: 0 0 3px rgba(0,0,0,0.7);
-}
-.container p {
- font-size: 1.5em;
- font-family: “Nunito Sans”, sans-serif;
- color: #FFFFFF;
- text-shadow: 1px 1px #070707;
 }
 .center-screen {
     display: flex;
