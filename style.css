@@ -21,6 +21,14 @@
     color: transparent;
     text-shadow: 0 0 3px rgba(0,0,0,0.7);
 }
+#footer {
+    position:absolute;
+    top:10px;
+    left:10px;
+    font-family: monaco, monospace;
+    font-weight: 500;
+    font-size: calc(0.8rem);
+}
 .center-screen {
     display: flex;
     flex-direction: column;
@@ -30,7 +38,7 @@
     min-height: 100vh;
 }
 ::selection {
-    background-color: rgba(42, 201, 201, 0.4);
+    background-color: rgba(42, 201, 201, 0.25);
 }
 #my-background{
  position:absolute;
