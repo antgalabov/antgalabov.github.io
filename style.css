@@ -14,7 +14,7 @@
 }
 #title {
     color: #fff;
-    font-size: calc(2rem + 12vw);
+    font-size: calc(1rem + 10vw);
     mix-blend-mode: difference;
     font-weight: 200;
     font-family: monaco, monospace;
